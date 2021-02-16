@@ -1,0 +1,229 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-image:url("../images/splash-bcgr.jpg");
+	color: #fff;
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    letter-spacing: 0.5px;
+	/*font-family: "Roboto Condensed",sans-serif;*/
+}
+
+.text-center {
+	text-align: center;
+}
+.p-20{
+	    padding: 20px;
+}
+.mb-15 {
+	margin-bottom: 60px;
+}
+.txt{
+	font-style: normal;
+    font-family: sans-serif;
+    font-weight: 100;
+}	
+
+.wrapper {
+	width: 400px;
+	margin:30px auto;
+}
+
+.content {
+	background-color: #fbffff !important;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	color: #000;
+	box-shadow: 6px 3px 4px 2px #48414194;
+}
+
+.p-all-40 {
+	padding: 40px;
+}
+
+.btn-reg {
+	display: block;
+	text-align: center;
+    border-radius: 0px 0px 7px 7px;
+    background-color: #2a97b8;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e3eef3;
+}
+
+.login-title {
+	font-size: 28px;
+    font-weight: 600;
+}
+
+.login-title i {
+	font-size: 32px;
+    margin-right: 5px;
+    color: #fdc210;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.login-title span {
+	color:#444;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.link-color{
+	color: #2a97b8;
+    font-weight: 600;
+}
+
+input {
+	outline:none;
+}
+
+.mt-25 {
+	margin-top:25px;
+}
+
+.form-row {
+	margin-bottom:10px;
+	margin-left:30px;
+}
+
+.form-control {
+	display: block;
+    width: 250px;
+    margin-top: 5px;
+    padding: 7px 5px;
+}
+
+.form-control:focus {
+	border:2px solid black !important;
+}
+
+.form-row input:disabled {
+	background-color: transparent;
+    border: none;
+}
+
+.note {
+	height:170px;
+	width:300px;
+	resize:none;
+}
+
+.btns {
+	margin:20px 0px;
+}
+
+.red-star {
+	color:red;
+	font-weight:bold;
+}
+
+.form-row input:required,
+.form-row select:required
+{
+	border:1px solid gray;
+}
+
+.form-row input[type=submit],
+button
+{
+	cursor:pointer;
+}
+.mt-15 {
+	margin-top:15px;
+}
+.box-chack{
+	    margin: 8px 10px 0px 10px;
+}
+.login-btn{
+	padding: 10px 15px;
+    background: #1687d0;
+    color: white;
+    border-radius: 3px;
+}
+.login-btn:hover{
+	background-color:rgb(38, 69, 116);
+}
+.web-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.txt-center{
+	text-align: center;
+    padding: 0px 15px 5px 0px;
+    font-weight: normal;
+    font-size: medium;
+}
+.my-table{
+	padding-top: 20px;	
+}
+.td-padd{
+	padding:5px;
+	cursor:pointer;
+}
+.my-link{
+	color:rgb(22, 135, 208);
+}
+.hlp-padd{
+	padding: 30px;
+}
+.font-color{
+	color:#1e5aa0;
+	text-align: left;
+    font-weight: 400;
+	font-family: "Roboto Condensed",sans-serif;
+	letter-spacing: .05rem;
+}
+.padd-bot{
+	padding-bottom:30px;
+}
+.btn-left{
+	float:left;
+}
+.clear{
+	clear:both;
+}
+.form-row2{
+	margin-bottom: 10px;
+	
+}
+.p-l-10{
+	    padding-left: 10px;
+}
+.btn-reg:hover{
+	text-decoration:none;
+	
+	opacity:0.7;
+}
+
+#login-item:hover > .login-sub-menu {
+	display:block;
+	
+}
+.login-sub-menu {
+	position: absolute;
+	display:none;
+	
+}
+
+
+.box-color{
+	background: #80808021;
+}
+.login-title a:hover{
+	text-decoration:none;
+}
