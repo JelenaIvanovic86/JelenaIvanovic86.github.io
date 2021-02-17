@@ -374,3 +374,12 @@ table{
 	text-decoration:none;
 	
 }
+
+
+@media only screen and (max-width: 750px){
+	.banner {
+	width: min-content;}
+	.box{
+		height:290px;
+	}
+}
