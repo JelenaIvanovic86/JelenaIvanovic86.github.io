@@ -25,7 +25,10 @@
   width: 25%;
   margin-bottom:20px;
 }
-
+.column img{
+	margin-top:30px;
+  border-radius:1px;
+}
 /* The Modal (background) */
 .modal {
   display:block ;
@@ -120,8 +123,7 @@
 
 
 img {
-  margin-top:30px;
-  border-radius:1px;
+  
 }
 
 .caption-container {
