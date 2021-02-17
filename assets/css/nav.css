@@ -224,6 +224,7 @@ footer{
 	}
 	
 	.menu li{
+		margin-top:20px;
 		padding:20px;
 		border-bottom:2px solid white;
 		text-align:center;	
@@ -320,6 +321,7 @@ nav span{
 }
 
 .logo-margin{
-	width:50px;
+	margin-top:0px !important;
+	width:90px;
 	margin-right: 100px;
 }
