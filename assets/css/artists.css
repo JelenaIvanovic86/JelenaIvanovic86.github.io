@@ -192,8 +192,8 @@ div[id^=image]:target .expand {
 }
 @media only screen and (max-width: 750px)
  {
-	.flex{
-	display:block;
+	.wrapper{
+	    max-inline-size: fit-content;
 
 	}
 	.footer{background:white;}
