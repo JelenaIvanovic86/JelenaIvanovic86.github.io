@@ -193,7 +193,7 @@ div[id^=image]:target .expand {
 @media only screen and (max-width: 750px)
  {
 	.flex{
-	display:initial;
+	display:block;
 
 	}
 	.footer{background:white;}
