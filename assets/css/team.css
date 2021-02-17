@@ -112,6 +112,6 @@ button:hover{
 	
 	.flex{ display: initial;}
 	.text-style{width:250px;
-	margin-bottom:40px;}
-	.text-style h2{    font-size: small}
+		margin-bottom:40px;}
+	.text-style h2{    font-size: small;}
 }
