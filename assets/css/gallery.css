@@ -181,3 +181,7 @@ hr{
 	transform:scale(1.2, 1.2);
 }
 
+@media only screen and (max-width:540px) {
+	body{
+		padding:40px;
+	}
