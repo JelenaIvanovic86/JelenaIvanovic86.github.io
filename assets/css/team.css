@@ -6,6 +6,11 @@
 	display:column;
 	margin:100px auto;
 }
+.wrapper{
+	margin: 0px;
+    padding: 2px;
+    width: 100%;
+}
 .frame{
 	width:150px;
 	height:150px;
@@ -43,42 +48,32 @@
 .h-kris{    margin-bottom: 0px;
     background-image: url(../images/textured-background.jpg);
     border-radius: 5px;
-    margin-left: 3px;
     padding-left: 20px;
-    width: 485px;
     padding-right: 20px;
 }
 .h-mil{margin-bottom: 0px;
     background-image: url(../images/textured-background.jpg);
     border-radius: 5px;
-    margin-left: 3px;
     padding-left: 20px;
-    width: 340px;
     padding-right: 20px;}
 .h-nev{
 	margin-bottom: 0px;
 	background-image: url(../images/textured-background.jpg);
     border-radius: 5px;
-    margin-left: 3px;
     padding-left: 20px;
-    width: 343px;
     padding-right: 20px;}
 .h-jel{
     margin-bottom: 0px;
     background-image: url(../images/textured-background.jpg);
     border-radius: 5px;
-    margin-left: 3px;
     padding-left: 20px;
-    width: 388px;
     padding-right: 20px;
 	}
 .h-maja{
     margin-bottom: 0px;
     background-image: url(../images/textured-background.jpg);
     border-radius: 5px;
-    margin-left: 3px;
     padding-left: 20px;
-    width: 380px;
     padding-right: 20px;
 }
 .m-auto{
@@ -111,7 +106,6 @@ button:hover{
 @media only screen and (max-width:750px) {
 	
 	.flex{ display: initial;}
-	.text-style{width:250px;
-		margin-bottom:40px;}
+	
 	.text-style h2{    font-size: small;}
 }

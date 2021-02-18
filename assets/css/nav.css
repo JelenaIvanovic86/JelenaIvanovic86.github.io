@@ -28,8 +28,8 @@ body{
 footer{
 	background:red;
 	width:100%;
-	position:absolute;
-	padding: 20px
+	padding: 20px;
+	height: 100px;
 }
 .flex{
 	display:flex;
@@ -40,7 +40,6 @@ footer{
 	margin:20px auto;
 	font-size: xx-large;
     letter-spacing: 0.3em;
-	
 	position:sticky;
 }
 
@@ -79,6 +78,7 @@ footer{
 	list-style-type: none;
 	margin-right: 30px;
 	margin-top: 20px;
+	
 }
 
 .menu li:last-child {
@@ -87,6 +87,8 @@ footer{
 
 .menu li a {
 	color:white;
+	padding:10px ;
+	
 }
 
 .active {
@@ -113,35 +115,36 @@ footer{
 .table-sub-menu  {
 	position: absolute;
     width: 200px;
-    padding-top: 20px;
 	display:none;
+	background: #f6f6f7;
+    border-radius: 6px;
+    text-align: center;
+	
 }
 
 .table-sub-menu li a {
 	margin-right: 0px;
     display: block;
-    text-align: center;
-	background:rgb(29 27 27);
+    text-align: center
 	width:100%;
 	padding:10px;
 	width: 200px;
+	
+}
+.table-sub-menu li{
+	margin-top: 0px;
 }
 .table-sub-menu li a:hover{
-	border-bottom:none;
+	border-bottom:1px solid gray;
 	text-decoration:none;
 	padding:20px;
-	color:black;
-	font-weight:400px;
-	text-shadow:5px 1px 3px #333;
+	
 }
 
 #table-item:hover > .table-sub-menu {
-	display:block;
+	display:block !important;
 }
-.menu li a {
-	padding:10px;
 
-}
 
 @media only screen and (max-width:750px) {
 	
@@ -153,6 +156,9 @@ footer{
 	}
 	 .closebtn, nav span{
 		display:block!important
+	}
+	.flex {
+    display: unset;
 	}
 	.table-sub-menu {
 	display: inline-block;
@@ -287,7 +293,7 @@ footer{
    text-align:left;
 }
 .td-icon img{
-	width:30px;
+	width:15px;
 	margin-left: 10px;
 	 opacity: 0.7;
 }
@@ -296,10 +302,11 @@ footer{
 }
 .text-end{
 	color: #f3ecec;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .txt{
-	opacity: 0.7;
+	opacity: 0.4;
+    font-size: 10px;
 }
 
 
