@@ -218,6 +218,7 @@ body{
 }
 
 .links {
+	display:none;
 	margin-bottom: 10px;
 }
 
