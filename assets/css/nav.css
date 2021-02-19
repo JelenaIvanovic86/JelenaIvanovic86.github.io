@@ -174,7 +174,8 @@ footer{
 	body{
 		background:none;
 	}
-	
+	footer{
+		background:white;}
 	#table-item:hover > .table-sub-menu {
 	display:block;
 	position:absolute;
@@ -270,14 +271,6 @@ footer{
 	}
 }
  	
-
-
-.my-footer{
-	background-image:url("../images/wall.jpg");
-	margin-top:30px;
-	padding:30px;
-	
-}
 .table{
 	padding:20px;
 	margin: 0px auto;

@@ -88,10 +88,7 @@
 h6{
 	color:white;
 }
-footer{
-	background:#420332;
-	padding:50px;
-}
+
 .text-style button{
 	padding: 3px;
     border-radius: 6px;
@@ -106,6 +103,9 @@ button:hover{
 @media only screen and (max-width:750px) {
 	
 	.flex{ display: initial;}
-	
+	footer{
+	background:white;
+	padding:0px;
+	}
 	.text-style h2{    font-size: small;}
 }
