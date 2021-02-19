@@ -160,6 +160,9 @@ footer{
 	.flex {
     display: unset;
 	}
+	.wrapper{
+		margin-bottom:50px;
+	}
 	.table-sub-menu {
 	display: inline-block;
     background: white;
