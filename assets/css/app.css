@@ -202,6 +202,35 @@ body{
 	line-height:1.4em;
 	margin-top:10px;
 }
+.btn {
+	padding: 10px 20px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+.right{
+	    padding-left: 320px;
+}
+.links a {
+	text-decoration: none;
+	color: black;
+}
+
+.links {
+	margin-bottom: 10px;
+}
+
+.active {
+	border-bottom: 1px solid red;
+	padding-bottom: 2px;
+}
+
+.my-txt {
+	border: 1px solid grey;
+	padding: 10px;
+	display: none;
+}
 
 .right {
 	flex: 0.7;
