@@ -193,6 +193,10 @@ footer{
 	.icon:hover{
 		color:gray;
 	}
+	
+	.dropdown-menu{
+		position:none !important;
+	}
 	nav{
 		background:none;
 		width:100%;
@@ -236,7 +240,7 @@ footer{
 	
 	.menu li{
 		margin-top:20px;
-		padding:20px;
+		padding:10px 20px;
 		border-bottom:2px solid white;
 		text-align:center;	
 		overflow: hidden;
@@ -328,4 +332,22 @@ nav span{
 	margin-top:0px !important;
 	width:90px;
 	margin-right: 100px;
+}
+.dm{position:unset;}
+.dropdown-menu {
+    /* position: absolute; */
+    /* top: 100%; */
+    /* z-index: 1000; */
+    display: none;
+    min-width: 10rem;
+    /* padding: .5rem 0; */
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    /* background-color: #fff; */
+    /* background-clip: padding-box; */
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
 }

@@ -8,7 +8,7 @@ body{
 }
 .wrapper{
 	margin:0px;
-	padding:2px;
+	
 	
 }
 .banner{
@@ -313,9 +313,14 @@ body{
 		text-align:center;
 		
 	}
+	.wrapper{ padding:0px;
+	margin:0px auto;}
 	.item-left,.item-right, .items2 p , h2{
 		background:white;
 		padding:10px;
+	}
+	.text-align{
+		margin: 0% 48%;
 	}
 	.item2 p{
 		background:#cfecf1;
@@ -339,7 +344,9 @@ body{
 	.links{display:block;}
 	
 }
-
+#myDIV{
+	border:none;
+}
 .table{
 	padding:20px;
 	margin: 0px auto;
