@@ -312,7 +312,9 @@ footer{
     font-size: 10px;
 }
 
-
+.m-20{
+	margin-top:20px;
+}
  .closebtn {
  color: white;
  text-decoration: none;
