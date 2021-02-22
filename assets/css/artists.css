@@ -196,6 +196,10 @@ div[id^=image]:target .expand {
 	    max-inline-size: fit-content;
 
 	}
+	.row{
+		display:list-item !important;
+		
+	}
 	.footer{background:white;}
 	.profileimg{
 		height: 226px;
