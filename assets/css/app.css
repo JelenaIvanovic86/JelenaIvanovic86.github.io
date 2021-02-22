@@ -438,3 +438,6 @@ table{
 		height:290px;
 	}
 }
+#dropMeny{
+	position:inherit;
+}
