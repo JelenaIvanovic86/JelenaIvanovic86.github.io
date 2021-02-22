@@ -200,4 +200,7 @@ div[id^=image]:target .expand {
 	.profileimg{
 		height: 226px;
 	}
+	.my-p1, .my-p2{
+		padding-left:0px;
+	}
 }

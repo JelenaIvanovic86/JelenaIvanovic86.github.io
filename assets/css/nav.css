@@ -171,6 +171,9 @@ footer{
 	display:none;
 	padding-left:10px;	
 	}
+	.my-p1, .my-p2{
+		padding-left:0px;
+	}
 	body{
 		background:none;
 	}
