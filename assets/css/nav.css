@@ -113,10 +113,10 @@ footer{
 }
 
 .table-sub-menu  {
-	position: absolute;
-    width: 200px;
+	
+    width:inherit;
 	display:none;
-	background: #f6f6f7;
+	background: #fbfafa;
     border-radius: 6px;
     text-align: center;
 	
@@ -125,10 +125,9 @@ footer{
 .table-sub-menu li a {
 	margin-right: 0px;
     display: block;
-    text-align: center
-	width:100%;
+    text-align: center;
 	padding:10px;
-	width: 200px;
+	width: inherit;
 	
 }
 .table-sub-menu li{
@@ -165,11 +164,12 @@ footer{
 	}
 	.table-sub-menu {
 	display: inline-block;
-    background: white;
+    background: #fbfafa;
     padding: 1px;
-    width: 248px;
+    width: inherit;
     margin-left: 57px;
-	display:none;	
+	display:none;
+	padding-left:10px;	
 	}
 	body{
 		background:none;
@@ -178,7 +178,7 @@ footer{
 		background:white;}
 	#table-item:hover > .table-sub-menu {
 	display:block;
-	position:absolute;
+	
 	}
 	.menu{
 		background:#f3f2f2;
@@ -271,10 +271,12 @@ footer{
     margin: 0px auto;
     margin-top: opx;
     text-align: center;
-    padding: 60px
+    
 	}
 }
- 	
+ .background{
+	 background:#fafafa;
+ }	
 .table{
 	padding:20px;
 	margin: 0px auto;
@@ -333,21 +335,4 @@ nav span{
 	width:90px;
 	margin-right: 100px;
 }
-.dm{position:unset;}
-.dropdown-menu {
-    /* position: absolute; */
-    /* top: 100%; */
-    /* z-index: 1000; */
-    display: none;
-    min-width: 10rem;
-    /* padding: .5rem 0; */
-    margin: 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    /* background-color: #fff; */
-    /* background-clip: padding-box; */
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-}
+
