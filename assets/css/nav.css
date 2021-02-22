@@ -156,6 +156,9 @@ footer{
 	 .closebtn, nav span{
 		display:block!important
 	}
+	.td-icon img{
+		width:20px;
+	}
 	.flex {
     display: unset;
 	}
