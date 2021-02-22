@@ -3,16 +3,13 @@
 	padding: 0px;
 }
 .img-div{
-	margin:100px auto;
+	margin:10px auto;
 	width:940px;
-	height:600px;
-	    width: 100%;
+	
+	 width: 100%;
 }
 .img-div img{
 	width:100%;
-}
-.jumbotron{
-	margin: 85px !important;
 }
 .text{
 	color:white;
@@ -25,6 +22,7 @@
 .web-img{
 	width:30px;
 }
+.footer{height:inherit;}
 .txt{
 	font-weight:400;
 	text-align:justify;
@@ -47,8 +45,9 @@ hr{
 	margin-left:15px;
 	margin-right:15px;
 }
-#borderimg {
-  border: 70px solid transparent;
-  padding: 15px;
-  border-image: url(../images/border.png) 30 round;
+@media only screen and (max-width:750px) {
+.text {
+    color: #6d7175;
+    padding: 15px;
+	}
 }
