@@ -185,5 +185,7 @@ hr{
 	.p-left{
 		padding-left:30%;
 	}
-	
+	.td-icon img{
+		width:20px;
+	}
 }
