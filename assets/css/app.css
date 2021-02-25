@@ -113,9 +113,7 @@ body{
 	text-shadow:2px 2px 7px #111111;
 	letter-spacing:0.2em;
 }
-.log-hov:hover {
-	background:red !important;
-}
+
 
 .my-main {
 	display: flex;
@@ -141,13 +139,11 @@ body{
     text-align: center;
 	background:black;
 	width:100%;
-	padding:10px;
 	width: 200px;
 }
 .table-sub-menu li a:hover{
 	border-bottom:none;
 	text-decoration:none;
-	padding:20px;
 	color:black;
 	font-weight:400px;
 	text-shadow:5px 1px 3px #333;
@@ -404,7 +400,7 @@ body{
 }
 
 footer{
-	background:red;
+	background:black;
 	position:absolute;
 	padding: 20px;
 	width:100%;
