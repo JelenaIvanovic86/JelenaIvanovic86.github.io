@@ -400,7 +400,7 @@ body{
 }
 
 footer{
-	background:black;
+	background: linear-gradient(0deg, #888, transparent);
 	position:absolute;
 	padding: 20px;
 	width:100%;

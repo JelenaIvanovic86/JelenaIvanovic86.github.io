@@ -23,7 +23,7 @@ body{
 }
 
 footer{
-	background:#212529;
+	background: linear-gradient(0deg, #888, transparent);
 	width:100%;
 	padding: 20px;
 	
@@ -62,12 +62,12 @@ footer{
 }
 
 .menu {
-	background:#00213b;
-	 background-repeat: no-repeat;
-	 background-size: 100%;
-	 background-repeat: round;
+	background:linear-gradient(180deg, #888, transparent);
     padding: 10px;
 	display:flex;
+	position:fixed;
+	top:0px;
+	width:100%;
 }
 .icon{display:none;}
 
@@ -298,7 +298,8 @@ footer{
    text-align:left;
 }
 .td-icon img{
-	
+	width: 20px;
+
 	margin-left: 10px;
 	 opacity: 0.7;
 }
