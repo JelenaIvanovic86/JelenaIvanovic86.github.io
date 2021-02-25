@@ -426,8 +426,11 @@ table{
 	text-decoration:none;
 	
 }
-
-
+.info{
+	color:white;
+	text-decoration:none;
+	margin-left:5px;
+}
 @media only screen and (max-width: 750px){
 	.banner {
 	width: min-content;}
