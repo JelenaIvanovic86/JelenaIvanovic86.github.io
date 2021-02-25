@@ -183,6 +183,7 @@ body{
 
 .item-left:last-child {
 	margin-bottom: 0px;
+	border-bottom: none;
 }
 
 .item-left img,

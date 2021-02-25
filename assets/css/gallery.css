@@ -1,6 +1,9 @@
-
+* {
+	margin: 0px;
+	padding: 0px;
+}
 .row{
-	margin-top:50px ;
+	margin-top: 200px;
 	
 }
 
@@ -37,7 +40,7 @@
   background-color: black;
   overflow: visible;
   width:600px;
-      overflow: scroll !important;
+  overflow: scroll !important;
 }
 
 /* Modal Content */
@@ -45,7 +48,7 @@
   
   position: unset !important;
  
-   overflow: visible;
+  overflow: visible;
  
 }
 
