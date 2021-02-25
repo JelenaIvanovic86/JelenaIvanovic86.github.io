@@ -107,7 +107,7 @@ footer{
 	background-color: #8080808c;
 	color: white;
 	text-decoration:none;
-	padding:10px;
+	border-radius:3px;
 }
 
 .table-sub-menu  {
