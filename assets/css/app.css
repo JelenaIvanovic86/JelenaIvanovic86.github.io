@@ -64,16 +64,7 @@ body{
 .responsive{	
 	width: 100%;
 }
-.brand-style{
-	font-family: 'FontAwesome';
-    letter-spacing: 0.2em;
-    font-size: 15px;
-    margin-top: 15px;
-}
- .menu a {
-	color: #337ab7 !important;
-	text-decoration: none;
-}
+.
 
 .text-center {
 	text-align: center;
@@ -87,74 +78,9 @@ body{
 	
 	display:flex;
 }
-.log{
-	text-shadow: 1px 1px black;
-    border-radius: 12px;
-    background: #FF5722;
-    padding: 10px;
-    box-shadow: 3px 2px 4px 2px #4c4343;
-    font-family: monospace;
-    font-weight: 400;
-}
-.menu li {
-	list-style-type: none;
-	margin-right: 30px;
-}
 
-.menu li:last-child {
-	margin-right: 0px;
-}
-
-.active {
-	border-bottom: 2px solid #bd4848;
-}
-.menu li a{
-	
-	text-shadow:2px 2px 7px #111111;
-	letter-spacing:0.2em;
-}
-
-
-.my-main {
-	display: flex;
-}
-.menu li a:hover {
-	background-color: #8080808c;
-	color: white;
-	box-shadow: inset 6px 0px 19px 5px;
-    border-radius: 3px;
-	text-decoration:none;
-}
-
-.table-sub-menu  {
-	position: absolute;
-    width: 200px;
-    padding-top: 20px;
-	display:none;
-}
-
-.table-sub-menu li a {
-	margin-right: 0px;
-    display: block;
-    text-align: center;
-	background:black;
-	width:100%;
-	width: 200px;
-}
-.table-sub-menu li a:hover{
-	border-bottom:none;
-	text-decoration:none;
-	color:black;
-	font-weight:400px;
-	text-shadow:5px 1px 3px #333;
-}
-
-#table-item:hover > .table-sub-menu {
-	display:block;
-}
 .menu li a {
-	padding:10px;
-
+	text-decoration:none;
 }
 
 .padding-all-20 {

@@ -14,6 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/app.css" />
+	<link rel="stylesheet" href="assets/css/nav.css" />
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -34,31 +35,30 @@
 				<div>
 					
 					
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar navbar1 navbar-expand-lg navbar-light ">
 					
 				<div class="links text-align">
 					<a onclick="myFunction()"><i class="fa fa-bars " aria-hidden="true"></i></a> 
 				</div>
 					
 				<div id="myDIV" class=" navbar-collapse my-txt">
-					<ul class="menu">
-						<li  class="nav-item active"><a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a></li>
-						<li class="nav-item"><a class="nav-link" href="assets/nav-items/team.html">Team</a></li>
-						<li class="nav-item " id="navbarDropdownMenuLink">
-							<a class="nav-link " href="#" >Artists</a>
-							<div id="dropMeny"class="dropdown-menu" >
-								<a class="dropdown-item" href="assets/nav-items/a-1.html">Aleksandar Paunovic</a>
-								<a class="dropdown-item"href="assets/nav-items/a-3.html">Dejan Ilic</a>
-								<a class="dropdown-item" href="assets/nav-items/a-2.html">Milan Pantelic</a>
-								<a class="dropdown-item" href="assets/nav-items/a-4.html">Sasa Montiljo</a>
-							</div>
-
-						<li class="nav-item"><a class="nav-link" href="assets/nav-items/gallery.html">Sales gallery</a></li>
-						<li class="nav-item"><a class="nav-link" href="assets/nav-items/floor-plan.html">Floor plan</a></li>
-						<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-						<li class="nav-item"><a class="nav-link"  href="assets/nav-items/log.html">Log in</a>
-						</li>
-						<li class="nav-item"><a class="nav-link" href="assets/nav-items/log-reg.html" >Sign in </a></li>
+					<ul  id="myLinks" class="menu" >
+						<a href="../../index.html"><img src="assets/images/logo.jpg" class="logo-margin"></a>
+						<li><a  class="active" href="index.html">Home</a></li>
+						<li><a href="assets/nav-items/team.html" >Team</a></li>
+						<li id="table-item">
+										<a>Artists</a>
+										<ul class="table-sub-menu">
+											<li><a href="assets/nav-items/a-1.html">Aleksandar Paunovic</a></li>
+											<li><a href="assets/nav-items/a-2.html">Dejan Ilic</a></li>
+											<li><a href="assets/nav-items/a-3.html">Milan Pantelic</a></li>
+											<li><a href="assets/nav-items/a-4.html">Sasa Montiljo</a></li>
+										</ul>
+						<li><a href="assets/nav-items/gallery.html">Sales gallery</a></li>
+						<li><a href="assets/nav-items/floor-plan.html">Floor plan</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
+						<li><a class="log" href="assets/nav-items/log.html">Log in</a></li>
+						<li><a href="assets/nav-items/log-reg.html" class="sign">Sign in</a></li>	
 					</ul>
 				</div>
 				  </li>
@@ -101,7 +101,7 @@
 				</div>
 				<div class="item2">
 					<h2 class="items-header mb-10">Performances</h2>
-					<p> Our exhibition events also inclide music or acting performances.LIKE THIS ONE...</p>
+					<p> Our exhibition events also inclide music or acting performances.LIKE THIS ONE ...</p>
 					<video class="padding-all-20" src="https://www.youtube.com/watch?v=4pTlwHvaNtA" width="90%" height="90%" preload="none"
 						controls loop></video>
 				</div>
