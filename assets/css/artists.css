@@ -25,11 +25,7 @@
 	 
 	
 }
-.menu li {
-    display: inline-block;
-    margin-right: 45px;
-	
-}
+
 .logo{
     color: #520b0b;
     font-family: fantasy;
@@ -200,7 +196,7 @@ div[id^=image]:target .expand {
 		display:list-item !important;
 		
 	}
-	.footer{background:white;}
+	
 	.profileimg{
 		height: 226px;
 	}

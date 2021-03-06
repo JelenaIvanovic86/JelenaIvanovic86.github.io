@@ -239,7 +239,7 @@ body{
 	.wrapper{ padding:0px;
 	margin:0px auto;}
 	.item-left,.item-right, .items2 p , h2{
-		background:white;
+		background:;
 		padding:10px;
 	}
 	.text-align{
@@ -256,14 +256,7 @@ body{
 	.log {
 		padding:10px 40px;
 	}
-	body{
-		background:black;
-		cursor:pointer;
-		color:#8a8a8a;
-	}
-	.member{
-	 display:none;
-	}
+	
 	.links{display:block;}
 	
 }
