@@ -195,7 +195,9 @@ ol, ul{
 		background:none;
 		width:100%;
 	}
-	
+	.table-sub-menu{
+		position:unset;
+	}
 	.icon{
     display:block;
 	color: black;
